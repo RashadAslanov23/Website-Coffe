@@ -1,0 +1,548 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+header {
+	background: linear-gradient(to left, rgba(0,0,0,0.0), #000), url(imags/coffee_image.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+  height: 100vh;	
+}
+
+.container {
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+.logo {
+	color: #fff;
+	font-family: Clicker Script;
+	font-size: 35px;
+}
+
+nav {
+  padding-top: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+	font-family: Playfair Display;
+
+}
+
+.menu li {
+	margin: 15px;
+	font-size: 14px;
+  color: #fff;
+  
+}
+
+.menu a:hover {
+  background: #F9C06A;
+  transition: 1.5s;
+  border-radius: 10px;
+}
+
+.regist {
+	font-family: Playfair Display;
+	font-size: 14px;
+}
+
+.regist1 {
+	color: #fff;
+	border-bottom: 0.5px solid #fff;
+}
+
+.regist2 {
+	margin-left: 25px;
+	background: #F9C06A;
+	padding: 15px 30px;
+	border-radius: 50px;
+	color: #1E1E1E;
+
+}
+
+.text-block1 {
+	margin-top: 135px;
+	color: #fff;
+}
+
+.text1 {
+	font-family: Playfair Display;
+	font-size: 22px;
+}
+
+.text2 {
+	font-family: Clicker Script;
+	font-size: 220px;
+}
+
+.text3 {
+	font-family: Playfair Display;
+	font-size: 20px;
+}
+
+.click {
+	background: #F9C06A;
+	color: #1E1E1E;
+	padding: 20px 30px;
+	border-radius: 50px;
+	margin-top: 25px;
+	border: none;
+	font-family: Playfair Display;
+}
+
+/*Первая секция*/
+
+.coffee-img {
+	margin-top: 90px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.block-text h3 {
+	font-size: 54px;
+	font-family: Playfair Display;
+	color: #603809;
+}
+
+.block-text p {
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: Playfair Display;
+	color: #707070;
+}
+
+.block-text a {
+	margin-top: 30px;
+	font-size: 16px;
+	font-family: Playfair Display;
+	color: #1E1E1E;
+	background: #F9C06A;
+	padding: 15px 30px;
+	border-radius: 50px;
+	display: inline-block;
+}
+
+.block-text img {
+	width: 500px;
+	height: 484px;
+}
+
+/*Секция два*/
+
+.zaq2 {
+	font-size: 54px;
+	text-align: center;
+	color: #603809;
+	font-family: Playfair Display;
+}
+
+.zaq_par {
+	text-align: center;
+	color: #707070;
+	font-size: 20px;
+	font-family: Playfair Display;
+	margin-top: 25px;
+}
+
+.block-imag {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.block-inf {
+	border: 0.3px solid #F9C06A;
+	text-align: center;
+	padding-bottom: 15px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.block-inf h4 {
+	font-size: 22px;
+	color: #603809;
+	font-family: Playfair Display;
+	margin-top: 10px; 
+}
+
+.block-infpp {
+	color: #1E1E1E;
+	font-size: 16px;
+	font-family: Playfair Display;
+	margin-top: 10px;
+}
+
+.block-infp {
+	color: #603809;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.clicker {
+	width: 134px;
+	height: 48px;
+	border-radius: 24px;
+	background: #F9C06A;
+	color: #1E1E1E;
+	border: none;
+	font-family: Playfair Display;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+/*Секция три*/
+
+
+.sec-tri {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.sec-tri h3 {
+    margin-left: 500px;
+    margin-top: 120px;
+    font-size: 54px;
+    color: #603809;
+    font-family: Playfair Display;
+}
+
+.sec-tri p {
+	margin-left: 500px;
+	font-size: 20px;
+	font-family: Playfair Display;
+	color: #707070;
+	margin-top: 25px;
+}
+
+.sec-trip {
+	text-align: center;
+	margin-bottom: 30px;
+	display: block;
+}
+
+.block-icon {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.block-icon h4 {
+	color: #603809;
+	font-size: 28px;
+	font-family: Playfair Display;
+}
+
+.block-icon p {
+	color: #707070;
+	font-size: 20px;
+	font-family: Playfair Display;
+	margin-top: 10px;
+}
+
+.posled-zaq {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.posled-zaq p {
+	color: #707070;
+	font-size: 20px;
+	font-family: Playfair Display; 
+
+}
+
+.posled-zaq h3 {
+	margin-top: 15px;
+    font-size: 30px;
+    font-family: Playfair Display;
+    color: #603809;
+}
+
+.posled-zaq a {
+	border-radius: 24px;
+	padding: 15px 35px;
+	margin-top: 25px;
+	display: inline-block;
+	background: #F9C06A;
+	color: #603809;
+	font-size: 16px;
+	font-family: Playfair Display;
+}
+/*Секция четыре*/
+
+.sec-img {
+	margin-top: 50px;
+	background-image: url(imags/Groupee.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.text-img {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 150px;
+}
+
+.sec-img h3 {
+	padding-top: 70px;
+	font-size: 54px;
+	color: #fff;
+	font-family: Playfair Display;
+}
+
+.sec-img p {
+	font-size: 20px;
+	color: #fff;
+	font-family: Playfair Display;
+	margin-top: 30px;
+}
+
+.sec-img a {
+	border-radius: 24px;
+	padding: 15px 35px;
+	margin-top: 25px;
+	display: inline-block;
+	background: #F9C06A;
+	color: #603809;
+	font-size: 16px;
+	font-family: Playfair Display;
+}
+
+.infor {
+	text-align: center;
+}
+
+.infor h3 {
+	font-size: 54px;
+	color: #603809;
+	margin-top: 100px;
+}
+
+.infor p {
+	font-size: 20px;
+	color: #707070;
+	margin-top: 15px;
+}
+
+/*Пятая секция*/
+
+.block-span {
+	display: flex;
+	justify-content: space-around;
+}
+
+.block-span span {
+	font-size: 220px;
+	font-family: Playfair Display;
+	color: #603809;
+	position: absolute;
+	left: 345px;
+	margin-top: 90px;
+}
+
+.block-span img {
+	position: absolute;
+	right: 0px;
+}
+
+.bat-text {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 300px;
+}
+
+.bat-text p {
+	color: #707070;
+	font-size: 18px;
+	font-family: Playfair Display;
+	line-height: 35px;
+}
+
+.vector {
+	background: #F9C06A;
+	padding: 25px;
+	border-radius: 5px;
+	margin-top: 95px;
+}
+
+
+.razliv {
+	display: flex;
+}
+
+.razliv-img {
+	position: absolute;
+	left: 0px;
+	margin-top: 35px;
+}
+
+.prof-fot {
+	text-align: center;
+	position: absolute;
+	right: 41%;
+	margin-top: 55px;
+	line-height: 35px;
+}
+
+.prof-fot h2 {
+	color: #603809;
+	font-size: 32px;
+	font-family: Playfair Display; 
+}  
+
+.prof-fot p {
+	color: #707070;
+	font-size: 20px;
+	font-family: Playfair Display;
+}
+
+.prof-fot img{
+	width: 112px;
+	height: 112px;
+}
+
+/*Подвал*/
+
+.futer1 {
+	margin-top: 320px;
+	background-image: url(imags/Groupgggg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	color: #fff;
+	height: 500px;
+}
+
+.futer1 h3 {
+	text-align: center;
+	font-size: 54px;
+	font-family: Playfair Display;
+	padding-top: 85px;
+}
+
+.futer13 {
+	text-align: center;
+	font-size: 20px;
+	font-family: Playfair Display;
+	margin-top: 15px;
+}
+
+.futer1 input {
+	padding: 21.6px 0px;
+	width: 500px;
+	border: none;
+	border-radius: 10px;
+	margin-left: 30%;
+	border: none;
+}
+
+.futer1 button {
+	background: #F9C06A;
+	padding: 15px;
+	border: none;
+	border-radius: 0px 10px 10px 0px;
+	position: absolute;
+	left: 58.9%;
+	color: #603809;
+	font-family: Playfair Display;
+	font-size: 22px;
+}
+
+.blyyy {
+	margin-top: 50px;
+}
+
+.blizn {
+	display: flex;
+	justify-content: space-between;
+}
+
+.img11 {
+	position: absolute;
+	left: 0px;
+	margin-bottom: 5%;
+}
+
+.img22 {
+	position: absolute;
+	right: 0px;
+	margin-bottom: 5%;
+}
+
+
+.cwdl {
+	background-image: url(imags/Grouprrrrr.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	margin-top: 190px;
+	width: 100%;
+}
+
+
+.posled {
+	display: flex;
+	justify-content: space-around;
+}
+
+.bblock-text {
+	display: flex;
+	margin-top: 170px;
+}
+
+.bblock-text div {
+	margin-left: 35px;
+}
+
+.bblock-text h4 {
+	font-size: 35px;
+	font-family: Playfair Display;
+}
+
+.bblock-text p {
+	margin-top: 15px;
+	font-size: 18px;
+	font-family: Playfair Display;
+}
+
+.stek1 {
+	margin-top: 170px;
+}
+
+.stek1 p {
+	margin-top: 20px;
+	font-family: Playfair Display;
+	font-size: 14px;
+	line-height: 25px;
+
+}
+
+.stek1 div {
+	margin-top: 20px;
+}
+
+.icon-contacta {
+	margin-left: 30px;
+}
+
+.logo1 {
+	font-size: 54px;
+	font-family: Clicker Script; 
+}
+
+
